@@ -1,0 +1,142 @@
+.resume-container {
+    padding: 3rem;
+    margin-top: 3rem;
+    height: 100vh;
+    display: flex;
+    gap: 1rem;
+    /* border: #9a5a9bff 2px solid; */
+
+}
+
+.banner-section {
+    display: flex;
+    height: 90%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 40rem;
+    align-items: center;
+    background-color: #393535;
+    border-radius: 5%;
+    box-shadow: 0 15px 10px rgba(0.2, 0.2, 0.2, 0.2);
+}
+
+.banner-text {
+    font-size: 6rem;
+
+}
+
+.text-section {
+    display: flex;
+    flex-direction: column;
+    width: 50rem;
+    /* border: #9a5a9bff 2px solid; */
+    align-items: center;
+}
+
+.section-title {
+    font-size: 4rem;
+    /* border: #9a5a9bff 2px solid; */
+}
+
+.section-img {
+    width: 40%;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0 10px 8px rgba(0, 0, 0, 0.2);
+    border: #2e2d2d 5px solid;
+}
+
+.section-contact {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    line-height: 0;
+    text-align: center;
+
+
+}
+
+.section-contact-info {
+    font-size: 1.5rem;
+    flex-grow: 0;
+    margin: 0;
+}
+
+.link-container {
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.link-img {
+    font-size: 3rem;
+    color: #fff;
+    transition: all ease 0.2s;
+}
+
+.link-img:hover {
+    color: #9a5a9bff;
+    transform: scale(1.1);
+    transition: all ease 0.2s;
+}
+
+.button-label-text {
+    font-size: 1.2rem;
+}
+
+.resume-button {
+    margin-top: 2rem;
+    gap: 2rem;
+    width: 20rem;
+    height: 5rem;
+    background-color: #9a5a9bff;
+    color: #fff;
+    border-radius: 2rem;
+    transition: all 0.3s ease;
+    font-size: 1.5rem;
+    align-items: center;
+    text-align: center;
+}
+
+.button-link {
+    text-decoration: none;
+    color: white;
+    gap: 1rem;
+    align-items: center;
+}
+
+.button-text {
+    padding-left: 1rem;
+}
+
+.resume-button:hover {
+    transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+    .resume-container {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+
+    .section-contact {
+        gap: 0.25rem;
+        line-height: 1;
+    }
+
+    .banner-section {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    .text-section {
+        width: 100%;
+    }
+
+    .banner-text {
+        font-size: 2rem;
+    }
+}

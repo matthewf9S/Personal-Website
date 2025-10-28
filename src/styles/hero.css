@@ -1,0 +1,122 @@
+.hero-container {
+    margin: 0;
+    padding: 3rem;
+    height: 100vh;
+    display: flex;
+    gap: 8rem;
+    /* border: #9a5a9bff 2px solid; */
+
+
+}
+
+.hero-title {
+    display: flex;
+    flex-direction: column;
+    width: 35rem;
+    /* border: #9a5a9bff 2px solid; */
+}
+
+.hero-banner {
+    display: flex;
+    flex-direction: column;
+    width: 35rem;
+    /* border: #9a5a9bff 2px solid; */
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 13rem;
+}
+
+
+.hero-title-text {
+    font-size: 5rem;
+    /* border: #9a5a9bff 2px solid; */
+}
+
+.hero-info {
+    display: flex;
+    gap: 3rem;
+    /* border: #9a5a9bff 2px solid; */
+}
+
+.hero-status {
+    display: flex;
+    gap: 0.1rem;
+    flex-direction: column;
+    font-size: 2rem;
+    line-height: 1;
+    /* border: #9a5a9bff 2px solid; */
+
+}
+
+.hero-status-title {
+    font-weight: bold;
+}
+
+.hero-status-info {
+    font-size: 1.2rem;
+}
+
+.hero-img {
+    width: 75%;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0 10px 8px rgba(0, 0, 0, 0.2);
+    border: #fff 10px solid;
+
+}
+
+.hero-button {
+    margin-top: 4rem;
+    gap: 2rem;
+    width: 20rem;
+    height: 5rem;
+    background-color: #9a5a9bff;
+    color: #fff;
+    border-radius: 2rem;
+    transition: all 0.3s ease;
+    font-size: 1.5rem;
+}
+
+.hero-button:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+@media (max-width: 768px) {
+    .hero-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+    }
+
+    .hero-status {
+        align-items: center;
+        text-align: center;
+        line-height: 0.3;
+    }
+
+    .hero-banner {
+        display: none;
+    }
+
+    .hero-title {
+        width: 100%;
+        text-align: center;
+    }
+
+    .hero-info {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero-img {
+        display: none;
+    }
+
+    .hero-button {
+        text-align: center;
+        padding: 0;
+    }
+}

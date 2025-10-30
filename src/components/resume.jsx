@@ -23,6 +23,9 @@ function resume() {
                         <a href="https://www.linkedin.com/in/matthew-felicia" className='link-img'><IoLogoLinkedin /></a>
                         <a href="https://github.com/matthewf9S" className='link-img'><IoLogoGithub /></a>
                     </div>
+                </div>
+                <div className='banner-section'>
+                    <h1 className='banner-text'>Lets get <br />in Contact!</h1>
                     <h1 className='button-label-text'>Download My Resume</h1>
                     <button className='resume-button'>
                         <a href={ResumeFile} download className='button-link'>
@@ -30,9 +33,6 @@ function resume() {
                             <span className='button-text'>Download</span>
                         </a>
                     </button>
-                </div>
-                <div className='banner-section'>
-                    <h1 className='banner-text'>Lets get <br />in Contact!</h1>
                 </div>
             </div>
         </section>

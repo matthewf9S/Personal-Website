@@ -5,6 +5,7 @@ import Skills from './components/skills.jsx'
 import Projects from './components/projects.jsx'
 import Resume from './components/resume.jsx'
 import BackgroundEffects from './components/BackgroundEffects.jsx'
+import Footer from './components/footer.jsx'
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         <Skills />
         <Projects />
         <Resume />
+        <Footer />
       </main>
 
     </>

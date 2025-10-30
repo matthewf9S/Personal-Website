@@ -43,12 +43,12 @@ function navbar() {
                             <span className='link-text'>Resume</span>
                         </a>
                     </li>
-                    <li className='navbar-item'>
+                    {/* <li className='navbar-item'>
                         <a href='#resume' className='nav-link'>
                             <IoPhonePortrait className='link-img' />
                             <span className='link-text'>Contact</span>
                         </a>
-                    </li>
+                    </li> */}
                 </ul>
             </div>
         </section>

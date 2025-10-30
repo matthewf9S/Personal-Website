@@ -7,7 +7,7 @@ function hero() {
         <section id="home">
             <div className='hero-container'>
                 <div className='hero-title'>
-                    <h1 className='hero-title-text'>Hi, <br />I'm <span style={{ color: '#9a5a9bff' }}>Matthew</span></h1>
+                    <h1 className='hero-title-text'>Hi, <br />I'm <span className="typewriter-inline" style={{ color: '#9a5a9bff' }}>Matthew</span></h1>
                     <p style={{ marginTop: '0', }}>
                         I’m a Computer Engineering graduate from the University of Scranton with a strong background in software and hardware design, eager to contribute to developing efficient and impactful technologies.
                     </p>
@@ -18,7 +18,7 @@ function hero() {
                         </div>
                         <div className='hero-status'>
                             <p className='hero-status-title'>Location</p>
-                            <p className='hero-status-info'> Medford, New Jersey (Open to relocation) </p>
+                            <p className='hero-status-info'> Medford, New Jersey <br />(Open to relocation) </p>
                         </div>
 
                     </div>

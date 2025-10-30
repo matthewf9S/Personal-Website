@@ -31,14 +31,14 @@
 .projectCard {
     flex: 0 0 auto;
     width: 350px;
-    background-color: #fff;
+    background-color: #343333;
     border-radius: 20px;
     box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     display: flex;
     flex-direction: column;
     transition: transform 0.3s;
-    border: #9a5a9bff 2px solid;
+    border: rgb(78, 77, 78) 2px solid;
 }
 
 .projectCard:hover {
@@ -58,12 +58,12 @@
 .projectInfo h2 {
     margin: 0 0 10px 0;
     font-size: 1.5rem;
-    color: #333;
+    color: #ffffff;
 }
 
 .projectInfo p {
     font-size: 1rem;
-    color: #555;
+    color: #ffffff;
     margin-bottom: 15px;
 }
 
@@ -74,7 +74,7 @@
 }
 
 .skillBadge {
-    background-color: #c583c2;
+    background-color: #7f407c;
     color: white;
     padding: 5px 10px;
     border-radius: 15px;

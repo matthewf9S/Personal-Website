@@ -41,7 +41,7 @@
     color: #fff;
     border-radius: 1rem;
     box-shadow: 0 10px 8px rgba(0, 0, 0, 0.2);
-    background-color: #242424;
+    background-color: #343333;
     /* border: #9a5a9bff 2px solid; */
 }
 
@@ -59,6 +59,8 @@
     max-height: 450px;
     flex-shrink: 0;
     object-fit: cover;
+    border: #636060 3px solid;
+    border-radius: .5rem;
     box-shadow: 0 10px 8px rgba(0, 0, 0, 0.2);
     object-fit: contain;
     flex-shrink: 0;

@@ -10,7 +10,7 @@ function skills() {
                 <div className='skill-text'>
                     <p className='skill-title' style={{ margin: '0', padding: '0' }}>Languages</p>
                     <ul className='skill-info'>
-                        <li className='skill-info-item'>Java Dude</li>
+                        <li className='skill-info-item'>Java</li>
                         <li className='skill-info-item'>Python</li>
                         <li className='skill-info-item'>HTML/CSS</li>
                         <li className='skill-info-item'>React</li>

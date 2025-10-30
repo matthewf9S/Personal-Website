@@ -25,7 +25,7 @@ function resume() {
                     </div>
                 </div>
                 <div className='banner-section'>
-                    <h1 className='banner-text'>Lets get <br />in Contact!</h1>
+                    <h1 className='banner-text'>Let's get <br />in Contact!</h1>
                     <h1 className='button-label-text'>Download My Resume</h1>
                     <button className='resume-button'>
                         <a href={ResumeFile} download className='button-link'>

@@ -9,17 +9,16 @@ function hero() {
                 <div className='hero-title'>
                     <h1 className='hero-title-text'>Hi, <br />I'm <span style={{ color: '#9a5a9bff' }}>Matthew</span></h1>
                     <p style={{ marginTop: '0', }}>
-                        I am a recent college graduate with a Bachelors degree in Computer Engineering.
-                        I am looking to start my career in software or hardware development.
+                        I’m a Computer Engineering graduate from the University of Scranton with a strong background in software and hardware design, eager to contribute to developing efficient and impactful technologies.
                     </p>
                     <div className='hero-info'>
                         <div className='hero-status'>
-                            <p className='hero-status-title'>Employment</p>
+                            <p className='hero-status-title'>Employment Status</p>
                             <p className='hero-status-info'>Open to work</p>
                         </div>
                         <div className='hero-status'>
                             <p className='hero-status-title'>Location</p>
-                            <p className='hero-status-info'>New Jersey (Open to relocation) </p>
+                            <p className='hero-status-info'> Medford, New Jersey (Open to relocation) </p>
                         </div>
 
                     </div>

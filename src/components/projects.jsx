@@ -8,19 +8,19 @@ import WebsitePic from '../assets/webImg.jpg'
 const cards = [
     {
         title: "Handwriting Robot",
-        description: "A robot that could use another person's handwriting to write notes and letters. Handwriting was preformed by using a CNC machine controlled by an Arduino board.",
+        description: "Designed and built a robot capable of replicating a person’s handwriting to write notes and letters, using a CNC machine controlled by an Arduino board.",
         media: CNC, // can also be a video link
         skills: ["Arduino", "Python", "G-Code", "Automation",],
     },
     {
         title: "Block Finder Robot",
-        description: "Utilizing a Raspberry Pi and camera module, this robot could navigate a space and identify blocks of specific colors using Open Cv. Upon retrielval and sotrage of all of the blocks, the robot would then stack each block at its home destination.",
+        description: "Developed a color-detection robot powered by a Raspberry Pi and camera module that navigates its environment, identifies and retrieves colored blocks using OpenCV, and stacks them at a designated home location.",
         media: BlockRobot,
         skills: ["OpenCV", "Python", "UART Protocol", "Raspberry Pi", "Circuit Design"],
     },
     {
         title: "Group Chat App",
-        description: "Team project where we deigned a group chat application with real-time messaging, user authentication, and media sharing capabilities.",
+        description: "Collaborated on a team project to develop a real-time group chat application featuring message handling, user connectivity, and data synchronization using C and AWS servers.",
         media: ChatApp,
         skills: ["C", "Git", "AWS Servers"],
     },
